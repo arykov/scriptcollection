@@ -1,5 +1,5 @@
 #!/bin/bash
-# Basic function
+#Script to help with publishing local maven repo to artifactory
 help () {
   echo "Use: upload_to_artifactory.sh -u user:password -a artifactory_url -r source of artifacts to be uploaded
 For example to upload to your artifactory everything from your local repo 
